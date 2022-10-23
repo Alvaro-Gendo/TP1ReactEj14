@@ -1,0 +1,11 @@
+{
+  "receta": [
+    {
+      "titulo": "Budin",
+      "pasos": "Precalentar el horno, como siempre, a 180º. No te olvides, es muy importante",
+       "ingredientes": "2 naranjas, 2 tazas de harina leudante (o harina común + 2 cditas. de polvo para hornear),1 taza de azúcar,3 huevos,1 taza de aceite neutro (de girasol o maíz",
+       "imagen": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1600",
+       "id": 1
+    }
+  ]
+}
