@@ -11,7 +11,7 @@ const Admin = () => {
         consultaAPI().then((respuesta)=>{
             setReceta(respuesta)
         })
-    });
+    },[]);
 
   return (
     <Container className="my-5">

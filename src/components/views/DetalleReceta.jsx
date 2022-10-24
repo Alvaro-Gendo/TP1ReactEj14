@@ -16,7 +16,7 @@ const DetalleProducto = () => {
         Swal.fire("Ocurrio un error", "Vuelva a intentarlo", "error");
       }
     });
-  });
+  },[]);
 
   return (
     <Container className="mt-3">
