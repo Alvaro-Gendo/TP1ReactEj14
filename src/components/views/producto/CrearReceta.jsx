@@ -64,7 +64,7 @@ const CrearProducto = () => {
             as="textarea"
             placeholder="Ingresar los pasos de la receta"
             minLength={5}
-            maxLength={1000}
+            maxLength={5000}
             {...register("pasos", {
               required: "Complete este campo",
               minLength: {
@@ -72,8 +72,8 @@ const CrearProducto = () => {
                 message: "Debe ingresar como minimo 2 caracteres",
               },
               maxLength: {
-                value: 1000,
-                message: "Debe ingresar como maximo 1000 caracteres",
+                value: 5000,
+                message: "Debe ingresar como maximo 5000 caracteres",
               },
             })}
           ></Form.Control>

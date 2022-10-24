@@ -23,7 +23,7 @@ const Receta = () => {
             />
             <Card.Body>
               <Card.Title>{receta.nombre}</Card.Title>
-              <Card.Text>
+              <Card.Text className="ocultarTexto">
                 {receta.ingredientes}
               </Card.Text>
               <Link className="btn btn-success" to={`/detalle/${receta.id}`}>

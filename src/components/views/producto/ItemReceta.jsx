@@ -42,7 +42,7 @@ const ItemProducto = ({receta, setReceta}) => {
     <tr>
       <td>{receta.id}</td>
       <td>{receta.titulo}</td>
-      <td>{receta.pasos}</td>
+      <td className="ocultarTexto">{receta.pasos}</td>
       <td>{receta.ingredientes}</td>
       <td>{receta.imagen}</td>
       <td>

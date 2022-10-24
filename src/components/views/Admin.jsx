@@ -30,7 +30,6 @@ const Admin = () => {
             <th>Pasos</th>
             <th>Ingredientes</th>
             <th>Imagen</th>
-            <th>Categoria</th>
           </tr>
         </thead>
         <tbody>
