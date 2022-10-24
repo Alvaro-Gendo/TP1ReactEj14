@@ -2,7 +2,7 @@
 
 
 ### Librerias
-- React-hook-from
+- React-hook-form
 - React-bootstrap
 - Swit-alert
 - json-server
