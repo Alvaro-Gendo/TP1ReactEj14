@@ -25,3 +25,13 @@
     display: inline-block;
     
 }
+
+@media all and (min-width: 768px) and (max-width: 991px){
+    .ocultarTextoMD{
+        width: 200px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: inline-block;
+    }
+}
