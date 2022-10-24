@@ -1,24 +1,24 @@
 {
   "receta": [
     {
-      "titulo": "Budin",
-      "pasos": "Precalentar el horno, como siempre, a 180º. No te olvides, es muy importante",
-      "ingredientes": "2 naranjas, 2 tazas de harina leudante (o harina común + 2 cditas. de polvo para hornear),1 taza de azúcar,3 huevos,1 taza de aceite neutro (de girasol o maíz",
-      "imagen": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "titulo": "Panqueques",
+      "pasos": "    Poner en la licuadora los huevos, la harina y un chorrito de leche, no más. Batir, separar la mezcla de los bordes y volver a batir hasta que no queden más grumos. ¿Se pueden hacer panqueques a mano? La respuesta es obvio que si. Pero yo utilizo licuadora.\n    Colocar el resto de la leche y volver a batir hasta que quede una mezcla bien lisa.\n    Llevar la mezcla a la heladera por una media hora para que la harina se hidrate. Si no lo hacer no pasa nada pero mejor hacerlo.\n    Colocar una sartén o panquequera siempre a fuego mínimo. Un poco de manteca para dar sabor y que no se peguen , y echar el primer cucharón. El primer panqueque nunca queda bien, a veces se descarta.\n    De a poco ir haciendo panqueque por panqueque con paciencia, enmantecando cada tanto el fondo para dar sabor. Hay que tener cuidado de que no se caliente demasiado la sartén o panquequera (sino es difícil desparramar la mezcla), no hay que intentar despegarlos (se despegan solos cuando están cocidos) y hay que",
+      "ingredientes": "2 huevos, 220 gr. harina 0000, 500 cc. leche",
+      "imagen": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=",
       "id": 1
     },
     {
-      "titulo": "Receta 2",
-      "pasos": "ASdasdasdjskladlkasjdklaskl",
-      "ingredientes": "aslkdjalksjdlaksjdlkasjdkasjdlkjas",
-      "imagen": "https://mx.web.img3.acsta.net/pictures/19/03/24/07/45/2705868.png",
+      "titulo": "Brownie",
+      "pasos": "    Para comenzar con nuestra receta de brownies de chocolate, vamos a colocar la manteca y el chocolate picados en una sartén, y llevarlos a fuego bien bajo. Lo tapamos y vamos a dejarlo por unos 5 minutos sin tocar. Confíen!\n    Ahora retirar del fuego y revolver los ingredientes hasta que esté todo derretido e integrado.\n    A parte vamos a batir los 2 huevos con el azúcar hasta que queden bien blancos, esto es clave para que el brownie casero quede bien húmedo.\n    Agregar el chocolate derretido y batir hasta que esté integrado. Sumar las nueces en pedazos grandes o como más les guste.\n    Sumar el harina 0000 tamizada en dos partes e integrar todo como se ve en el video. Es importante batir fuerte antes de pasar el brownie de chocolate al molde.\n    Colocar en una placa y cocinar al horno fuerte (200-220°) por 20 minutos.",
+      "ingredientes": "100gr de manteca, 150gr de chocolate, 2 huevos, 1 taza de azúcar, 1/2 taza de nueces picadas, 100gr de harina",
+      "imagen": "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysr",
       "id": 2
     },
     {
-      "titulo": "Receta 3",
-      "pasos": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-      "ingredientes": "xxxxxxxxxxxx",
-      "imagen": "https://mx.web.img3.acsta.net/pictures/19/03/24/07/45/2705868.png",
+      "titulo": "Donuts",
+      "pasos": "El primer paso será disolver la levadura de panader en el agua y la leche. Simplemente la echamos en un vaso y damos vuelta con la leche y el agua hasta que se disuelva por completo. En un bol mezclamos la harina, el azúcar y la sal. Incorporamos la leche junto con la mantequilla a temperatura ambiente, la esencia de vainilla y el huevo. Ahora es momento de amasar. Yo he usado un robot de cocina porque dispongo de él pero si no lo tiene te tocará hacerlo a mano.(Debe quedar una masa elástica que no se pegue. Si se sigue pegando necesitará un poquito más de harina. Tardaremos unos 10 minutos.\n\nSé paciente que tarda en ponerse lisa y suave, poco a poco.). Formamos una bola con la masa y la introducimos en un bol con una gota de aceite de oliva para que no se pegue. La tapamos con papel film y ponemos en un lugar cçalido de la casa hasta que doble o triplique el volumen. Pasado ese tiempo sacamos la masa y volvemos a amasarla. Ponemos una gota de harina en la mesa, amasamos.",
+      "ingredientes": "500 gramos de harina de fuerza, 75 gramos de azúcar, 50 gramos de mantequilla, 100 ml de agua, 150 ml de leche, 25 gramos de levadura fresca o levadura de panadero, 1 cucharadita de esencia de vainilla, 1 huevo, Una pizca de sal",
+      "imagen": "https://images.pexels.com/photos/3656119/pexels-photo-3656119.jpeg?auto=compress&cs=tinysrgb&w=1260&",
       "id": 3
     }
   ]
