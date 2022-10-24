@@ -19,8 +19,8 @@ function App() {
           <Route exact path="/" element={<Inicio></Inicio>}></Route>
           <Route exact path="/administrador" element={<Admin></Admin>}></Route>
           <Route exact path="/administrador/crear" element={<CrearReceta></CrearReceta>}></Route>
-          <Route exact path="/administrador/editar" element={<EditarReceta></EditarReceta>}></Route>
-          <Route exact path="/detalle" element={<DetalleReceta></DetalleReceta>}></Route>
+          <Route exact path="/administrador/editar/:id" element={<EditarReceta></EditarReceta>}></Route>
+          <Route exact path="/detalle/:id" element={<DetalleReceta></DetalleReceta>}></Route>
           <Route exact path="*" element={<Error404></Error404>}></Route>
         </Routes>
         <Footer></Footer>

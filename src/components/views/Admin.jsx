@@ -1,8 +1,18 @@
+import { useEffect, useState } from "react";
 import { Container, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { consultaAPI } from "../helpers/queires";
 import ItemReceta from "./producto/ItemReceta";
 
 const Admin = () => {
+    const [receta, setReceta] = useState([]);
+
+    useEffect(()=>{
+        consultaAPI().then((respuesta)=>{
+            setReceta(respuesta)
+        })
+    });
+
   return (
     <Container className="my-5">
       <div>
@@ -24,7 +34,10 @@ const Admin = () => {
           </tr>
         </thead>
         <tbody>
-            <ItemReceta></ItemReceta>
+            {
+                receta.map((receta)=><ItemReceta key={receta.id} receta={receta} setReceta={setReceta}/>)
+            }
+            
         </tbody>
       </Table>
     </Container>
