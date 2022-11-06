@@ -11,22 +11,23 @@ const Receta = () => {
       setReceta(respuesta);
     });
   }, []);
+  
   return (
     <>
       {receta.map((receta) => (
-        <Col sm={12} md={4} lg={4} className="my-1">
-          <Card key={receta.id}>
+        <Col sm={12} md={4} lg={4} className="my-1" key={receta._id}>
+          <Card >
             <Card.Img
               src={receta.imagen}
               alt={receta.titulo}
               className="img-fluid imgSize"
             />
             <Card.Body>
-              <Card.Title>{receta.nombre}</Card.Title>
+              <Card.Title>{receta.titulo}</Card.Title>
               <Card.Text className="ocultarTexto ocultarTextoMD">
                 {receta.ingredientes}
               </Card.Text>
-              <Link className="btn btn-success" to={`/detalle/${receta.id}`}>
+              <Link className="btn btn-success" to={`/detalle/${receta._id}`}>
                 Ver más
               </Link>
             </Card.Body>

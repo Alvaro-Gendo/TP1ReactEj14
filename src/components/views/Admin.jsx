@@ -34,7 +34,7 @@ const Admin = () => {
         </thead>
         <tbody>
             {
-                receta.map((receta)=><ItemReceta key={receta.id} receta={receta} setReceta={setReceta}/>)
+                receta.map((receta)=><ItemReceta key={receta._id} receta={receta} setReceta={setReceta}/>)
             }
             
         </tbody>

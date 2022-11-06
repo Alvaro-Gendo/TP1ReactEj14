@@ -1,4 +1,3 @@
-
 import { useForm } from "react-hook-form";
 import { Button, Container, Form } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
@@ -25,6 +24,21 @@ const EditarProducto = () => {
 
   const navegacion = useNavigate();
 
+  const onSubmit = (datos) => {
+    editarRecetaAPI(id, datos).then((respuesta) => {
+      if (respuesta.status === 200) {
+        Swal.fire(
+          "Receta Actualizada",
+          "Receta corregida correctamente",
+          "success"
+        );
+        navegacion("/administrador");
+      } else {
+        Swal.fire("Ocurrio un error", "Vuelve a intentar", "error");
+      }
+    });
+  };
+
   useEffect(() => {
     obtenerRecetaAPI(id).then((respuesta) => {
       if (respuesta.status === 200) {
@@ -32,23 +46,11 @@ const EditarProducto = () => {
         setValue("pasos", respuesta.dato.pasos);
         setValue("ingredientes", respuesta.dato.ingredientes);
         setValue("imagen", respuesta.dato.imagen);
-      }else{
-        Swal.fire("Ocurrio un error", "Vuelva a intentarlo", "error")
+      } else {
+        Swal.fire("Ocurrio un error", "Vuelva a intentarlo", "error");
       }
     });
   },[]);
-
-  const onSubmit = (datos) => {
-    console.log(datos)
-    editarRecetaAPI(id, datos).then((respuesta) => {
-      if (respuesta.status === 200) {
-        Swal.fire("Receta Actualizada", "", "success");
-        navegacion("/administrador");
-      } else {
-        Swal.fire("Ocurrio un error", "Vuelve a intentar", "error");
-      }
-    });
-  };
 
   return (
     <Container className="mt-4">
