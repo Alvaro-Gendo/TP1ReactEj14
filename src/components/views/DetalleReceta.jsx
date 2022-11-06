@@ -29,6 +29,7 @@ const DetalleProducto = () => {
             <Col sm={12} md={6} lg={7}>
               <Card.Title>{receta.titulo}</Card.Title>
               <Card.Text>{receta.pasos}</Card.Text>
+              <Card.Text>Ingredientes:</Card.Text>
               <Card.Text>{receta.ingredientes}</Card.Text>
             </Col>
           </Row>
