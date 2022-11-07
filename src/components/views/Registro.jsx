@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { crearUsuarioAPI } from "../helpers/queires";
 
-const Registro = ({setUsuarioLogin}) => {
+const Registro = () => {
 
     const {
         register,
